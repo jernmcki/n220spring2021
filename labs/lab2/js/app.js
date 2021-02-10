@@ -1,3 +1,5 @@
+//size of ball
+
 var ball = {
 
     x: 300,
@@ -12,6 +14,8 @@ function setup() {
 
 }
 
+//background color and style of ball
+
 function draw() {
 
 background(0, 247, 255)
@@ -19,6 +23,8 @@ fill(255, 251, 0);
 stroke(0, 137, 168)
 strokeWeight(8);
 
+
+//ball and the vars associated with it along with the speed vars
 
 
 ellipse(ball.x, ball.y, 40, 40);
