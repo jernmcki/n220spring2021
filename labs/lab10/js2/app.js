@@ -1,0 +1,1 @@
+var colorbar = document.getElementById("color");
